@@ -15,15 +15,8 @@ export function App() {
         <Sidebar />
 
         <main>
-          <Post
-            author="Leonardo"
-            content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero dicta nemo sapiente obcaecati sit consequuntur, debitis voluptates hic, ut laborum fugiat neque facere eos? Fugit illum soluta commodi quam earum."
-          />
-
-          <Post
-            author="Diego"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic corrupti amet in atque nisi molestiae, iusto recusandae sint, modi nobis, voluptas suscipit repellat? Cum eius quam error optio maiores."
-          />
+          <Post />
+          <Post />
         </main>
       </div>
 
