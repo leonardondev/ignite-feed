@@ -1,6 +1,6 @@
-import { Avatar } from "./Avatar";
-import { Comment } from "./Comment";
-import styles from "./Post.module.css";
+import { Avatar } from './Avatar'
+import { Comment } from './Comment'
+import styles from './Post.module.css'
 
 export function Post() {
   return (
@@ -14,15 +14,19 @@ export function Post() {
           </div>
         </div>
 
-        <time 
-          dateTime={'2024-08-18T13:44:32.394Z'}
-          title="18 de outubro às 10:44h" 
-        >Publicado há 1h</time>
+        <time
+          dateTime="2024-08-18T13:44:32.394Z"
+          title="18 de outubro às 10:44h"
+        >Publicado há 1h
+        </time>
       </header>
 
       <div className={styles.content}>
         <p>Fala galeraa 👋</p>
-        <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+        <p>Acabei de subir mais um projeto no meu portifa.
+          É um projeto que fiz no NLW Return, evento da Rocketseat.
+          O nome do projeto é DoctorCare 🚀
+        </p>
         <p>👉{' '}<a href="#">jane.design/doctorcare</a></p>
         <p>
           <a href="#">#novoprojeto</a>{' '}
@@ -34,7 +38,7 @@ export function Post() {
       <form className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>
 
-        <textarea 
+        <textarea
           placeholder="Deixe um comentário"
         />
 

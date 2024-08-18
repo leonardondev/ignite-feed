@@ -1,8 +1,7 @@
-import { PencilSimpleLine } from "@phosphor-icons/react";
+import { PencilSimpleLine } from '@phosphor-icons/react'
 
-
-import { Avatar } from "./Avatar";
-import styles from "./Sidebar.module.css";
+import { Avatar } from './Avatar'
+import styles from './Sidebar.module.css'
 
 export function Sidebar() {
   return (
@@ -17,7 +16,8 @@ export function Sidebar() {
       <footer>
         <a href="#">
           <PencilSimpleLine size={20} weight="bold" />
-          Editar seu perfil</a>
+          Editar seu perfil
+        </a>
       </footer>
     </aside>
   )
