@@ -38,4 +38,9 @@ export default [
     },
   },
   ...rocketseatEslintConfig,
+  {
+    rules: {
+      '@stylistic/max-len': 'off',
+    },
+  },
 ]
